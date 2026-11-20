@@ -1,0 +1,365 @@
+year,age_group,coat_group,n,adopted
+2014,Adult (1–<8y),Black,238,56
+2014,Adult (1–<8y),Black (mixed),212,40
+2014,Adult (1–<8y),Blue/gray,184,50
+2014,Adult (1–<8y),Blue/gray (mixed),117,19
+2014,Adult (1–<8y),Brown,246,56
+2014,Adult (1–<8y),Brown (mixed),159,32
+2014,Adult (1–<8y),Orange,138,23
+2014,Adult (1–<8y),Other coats,330,76
+2014,Adult (1–<8y),Other/pattern,186,65
+2014,Adult (1–<8y),Tortoiseshell,92,13
+2014,Adult (1–<8y),White (mixed),85,14
+2014,Kitten (<1y),Black,639,260
+2014,Kitten (<1y),Black (mixed),474,188
+2014,Kitten (<1y),Blue/gray,386,153
+2014,Kitten (<1y),Blue/gray (mixed),220,90
+2014,Kitten (<1y),Brown,742,294
+2014,Kitten (<1y),Brown (mixed),371,159
+2014,Kitten (<1y),Orange,356,153
+2014,Kitten (<1y),Other coats,630,301
+2014,Kitten (<1y),Other/pattern,402,201
+2014,Kitten (<1y),Tortoiseshell,189,83
+2014,Kitten (<1y),White (mixed),194,86
+2014,Senior (8y+),Black,36,15
+2014,Senior (8y+),Black (mixed),34,14
+2014,Senior (8y+),Blue/gray,21,9
+2014,Senior (8y+),Blue/gray (mixed),19,9
+2014,Senior (8y+),Brown,35,13
+2014,Senior (8y+),Brown (mixed),38,14
+2014,Senior (8y+),Orange,25,6
+2014,Senior (8y+),Other coats,50,21
+2014,Senior (8y+),Other/pattern,44,20
+2014,Senior (8y+),Tortoiseshell,24,9
+2014,Senior (8y+),White (mixed),19,6
+2015,Adult (1–<8y),Black,266,68
+2015,Adult (1–<8y),Black (mixed),195,37
+2015,Adult (1–<8y),Blue/gray,153,39
+2015,Adult (1–<8y),Blue/gray (mixed),112,28
+2015,Adult (1–<8y),Brown,291,61
+2015,Adult (1–<8y),Brown (mixed),213,50
+2015,Adult (1–<8y),Orange,147,35
+2015,Adult (1–<8y),Other coats,309,85
+2015,Adult (1–<8y),Other/pattern,196,56
+2015,Adult (1–<8y),Tortoiseshell,110,25
+2015,Adult (1–<8y),White (mixed),85,18
+2015,Kitten (<1y),Black,712,285
+2015,Kitten (<1y),Black (mixed),499,224
+2015,Kitten (<1y),Blue/gray,407,190
+2015,Kitten (<1y),Blue/gray (mixed),261,129
+2015,Kitten (<1y),Brown,777,359
+2015,Kitten (<1y),Brown (mixed),439,213
+2015,Kitten (<1y),Orange,410,165
+2015,Kitten (<1y),Other coats,597,293
+2015,Kitten (<1y),Other/pattern,333,155
+2015,Kitten (<1y),Tortoiseshell,250,131
+2015,Kitten (<1y),White (mixed),217,85
+2015,Senior (8y+),Black,48,10
+2015,Senior (8y+),Black (mixed),50,18
+2015,Senior (8y+),Blue/gray,19,10
+2015,Senior (8y+),Blue/gray (mixed),18,10
+2015,Senior (8y+),Brown,38,15
+2015,Senior (8y+),Brown (mixed),26,17
+2015,Senior (8y+),Orange,31,9
+2015,Senior (8y+),Other coats,44,17
+2015,Senior (8y+),Other/pattern,47,22
+2015,Senior (8y+),Tortoiseshell,23,11
+2015,Senior (8y+),White (mixed),16,3
+2016,Adult (1–<8y),Black,271,84
+2016,Adult (1–<8y),Black (mixed),200,64
+2016,Adult (1–<8y),Blue/gray,167,59
+2016,Adult (1–<8y),Blue/gray (mixed),107,49
+2016,Adult (1–<8y),Brown,327,109
+2016,Adult (1–<8y),Brown (mixed),139,46
+2016,Adult (1–<8y),Orange,143,42
+2016,Adult (1–<8y),Other coats,274,112
+2016,Adult (1–<8y),Other/pattern,174,73
+2016,Adult (1–<8y),Tortoiseshell,132,51
+2016,Adult (1–<8y),White (mixed),97,34
+2016,Kitten (<1y),Black,688,359
+2016,Kitten (<1y),Black (mixed),411,225
+2016,Kitten (<1y),Blue/gray,386,177
+2016,Kitten (<1y),Blue/gray (mixed),229,141
+2016,Kitten (<1y),Brown,689,335
+2016,Kitten (<1y),Brown (mixed),313,189
+2016,Kitten (<1y),Orange,341,152
+2016,Kitten (<1y),Other coats,538,291
+2016,Kitten (<1y),Other/pattern,303,181
+2016,Kitten (<1y),Tortoiseshell,196,106
+2016,Kitten (<1y),White (mixed),184,109
+2016,Senior (8y+),Black,29,10
+2016,Senior (8y+),Black (mixed),38,11
+2016,Senior (8y+),Blue/gray,27,7
+2016,Senior (8y+),Blue/gray (mixed),17,8
+2016,Senior (8y+),Brown,48,14
+2016,Senior (8y+),Brown (mixed),25,11
+2016,Senior (8y+),Orange,24,10
+2016,Senior (8y+),Other coats,44,21
+2016,Senior (8y+),Other/pattern,27,12
+2016,Senior (8y+),Tortoiseshell,21,9
+2016,Senior (8y+),White (mixed),18,10
+2017,Adult (1–<8y),Black,248,95
+2017,Adult (1–<8y),Black (mixed),192,70
+2017,Adult (1–<8y),Blue/gray,183,65
+2017,Adult (1–<8y),Blue/gray (mixed),109,34
+2017,Adult (1–<8y),Brown,287,104
+2017,Adult (1–<8y),Brown (mixed),154,75
+2017,Adult (1–<8y),Orange,136,49
+2017,Adult (1–<8y),Other coats,290,114
+2017,Adult (1–<8y),Other/pattern,158,66
+2017,Adult (1–<8y),Tortoiseshell,92,32
+2017,Adult (1–<8y),White (mixed),125,55
+2017,Kitten (<1y),Black,657,356
+2017,Kitten (<1y),Black (mixed),427,234
+2017,Kitten (<1y),Blue/gray,370,184
+2017,Kitten (<1y),Blue/gray (mixed),231,134
+2017,Kitten (<1y),Brown,665,367
+2017,Kitten (<1y),Brown (mixed),361,208
+2017,Kitten (<1y),Orange,305,143
+2017,Kitten (<1y),Other coats,495,307
+2017,Kitten (<1y),Other/pattern,316,197
+2017,Kitten (<1y),Tortoiseshell,147,88
+2017,Kitten (<1y),White (mixed),229,139
+2017,Senior (8y+),Black,36,12
+2017,Senior (8y+),Black (mixed),40,16
+2017,Senior (8y+),Blue/gray,33,12
+2017,Senior (8y+),Blue/gray (mixed),26,12
+2017,Senior (8y+),Brown,57,25
+2017,Senior (8y+),Brown (mixed),33,14
+2017,Senior (8y+),Orange,32,13
+2017,Senior (8y+),Other coats,51,16
+2017,Senior (8y+),Other/pattern,41,19
+2017,Senior (8y+),Tortoiseshell,29,11
+2017,Senior (8y+),White (mixed),20,8
+2018,Adult (1–<8y),Black,244,80
+2018,Adult (1–<8y),Black (mixed),172,55
+2018,Adult (1–<8y),Blue/gray,142,57
+2018,Adult (1–<8y),Blue/gray (mixed),90,28
+2018,Adult (1–<8y),Brown,260,85
+2018,Adult (1–<8y),Brown (mixed),166,64
+2018,Adult (1–<8y),Orange,130,43
+2018,Adult (1–<8y),Other coats,269,121
+2018,Adult (1–<8y),Other/pattern,170,69
+2018,Adult (1–<8y),Tortoiseshell,112,36
+2018,Adult (1–<8y),White (mixed),90,26
+2018,Kitten (<1y),Black,524,299
+2018,Kitten (<1y),Black (mixed),327,204
+2018,Kitten (<1y),Blue/gray,425,228
+2018,Kitten (<1y),Blue/gray (mixed),222,130
+2018,Kitten (<1y),Brown,639,369
+2018,Kitten (<1y),Brown (mixed),300,158
+2018,Kitten (<1y),Orange,288,158
+2018,Kitten (<1y),Other coats,425,250
+2018,Kitten (<1y),Other/pattern,278,182
+2018,Kitten (<1y),Tortoiseshell,170,98
+2018,Kitten (<1y),White (mixed),211,117
+2018,Senior (8y+),Black,40,13
+2018,Senior (8y+),Black (mixed),45,23
+2018,Senior (8y+),Blue/gray,27,12
+2018,Senior (8y+),Blue/gray (mixed),24,12
+2018,Senior (8y+),Brown,43,16
+2018,Senior (8y+),Brown (mixed),26,11
+2018,Senior (8y+),Orange,21,7
+2018,Senior (8y+),Other coats,71,26
+2018,Senior (8y+),Other/pattern,38,14
+2018,Senior (8y+),Tortoiseshell,27,10
+2018,Senior (8y+),White (mixed),25,12
+2018,Unknown age,White (mixed),1,1
+2019,Adult (1–<8y),Black,282,98
+2019,Adult (1–<8y),Black (mixed),204,80
+2019,Adult (1–<8y),Blue/gray,155,42
+2019,Adult (1–<8y),Blue/gray (mixed),116,48
+2019,Adult (1–<8y),Brown,270,84
+2019,Adult (1–<8y),Brown (mixed),203,63
+2019,Adult (1–<8y),Orange,157,48
+2019,Adult (1–<8y),Other coats,342,139
+2019,Adult (1–<8y),Other/pattern,178,75
+2019,Adult (1–<8y),Tortoiseshell,117,48
+2019,Adult (1–<8y),White (mixed),100,26
+2019,Kitten (<1y),Black,785,371
+2019,Kitten (<1y),Black (mixed),505,277
+2019,Kitten (<1y),Blue/gray,502,268
+2019,Kitten (<1y),Blue/gray (mixed),303,162
+2019,Kitten (<1y),Brown,837,407
+2019,Kitten (<1y),Brown (mixed),403,227
+2019,Kitten (<1y),Orange,432,223
+2019,Kitten (<1y),Other coats,636,354
+2019,Kitten (<1y),Other/pattern,354,186
+2019,Kitten (<1y),Tortoiseshell,266,143
+2019,Kitten (<1y),White (mixed),264,134
+2019,Senior (8y+),Black,41,13
+2019,Senior (8y+),Black (mixed),35,16
+2019,Senior (8y+),Blue/gray,31,9
+2019,Senior (8y+),Blue/gray (mixed),26,8
+2019,Senior (8y+),Brown,36,16
+2019,Senior (8y+),Brown (mixed),25,9
+2019,Senior (8y+),Orange,25,9
+2019,Senior (8y+),Other coats,72,32
+2019,Senior (8y+),Other/pattern,36,19
+2019,Senior (8y+),Tortoiseshell,14,12
+2019,Senior (8y+),White (mixed),14,6
+2020,Adult (1–<8y),Black,128,49
+2020,Adult (1–<8y),Black (mixed),103,46
+2020,Adult (1–<8y),Blue/gray,103,44
+2020,Adult (1–<8y),Blue/gray (mixed),62,27
+2020,Adult (1–<8y),Brown,146,57
+2020,Adult (1–<8y),Brown (mixed),98,42
+2020,Adult (1–<8y),Orange,83,34
+2020,Adult (1–<8y),Other coats,167,70
+2020,Adult (1–<8y),Other/pattern,97,46
+2020,Adult (1–<8y),Tortoiseshell,54,29
+2020,Adult (1–<8y),White (mixed),59,22
+2020,Kitten (<1y),Black,287,176
+2020,Kitten (<1y),Black (mixed),206,150
+2020,Kitten (<1y),Blue/gray,243,130
+2020,Kitten (<1y),Blue/gray (mixed),98,77
+2020,Kitten (<1y),Brown,393,239
+2020,Kitten (<1y),Brown (mixed),165,115
+2020,Kitten (<1y),Orange,178,105
+2020,Kitten (<1y),Other coats,278,164
+2020,Kitten (<1y),Other/pattern,149,105
+2020,Kitten (<1y),Tortoiseshell,118,77
+2020,Kitten (<1y),White (mixed),95,63
+2020,Senior (8y+),Black,32,16
+2020,Senior (8y+),Black (mixed),23,10
+2020,Senior (8y+),Blue/gray,18,5
+2020,Senior (8y+),Blue/gray (mixed),10,2
+2020,Senior (8y+),Brown,19,6
+2020,Senior (8y+),Brown (mixed),15,7
+2020,Senior (8y+),Orange,18,4
+2020,Senior (8y+),Other coats,39,21
+2020,Senior (8y+),Other/pattern,22,10
+2020,Senior (8y+),Tortoiseshell,5,4
+2020,Senior (8y+),White (mixed),12,4
+2021,Adult (1–<8y),Black,153,76
+2021,Adult (1–<8y),Black (mixed),122,57
+2021,Adult (1–<8y),Blue/gray,118,60
+2021,Adult (1–<8y),Blue/gray (mixed),64,31
+2021,Adult (1–<8y),Brown,159,89
+2021,Adult (1–<8y),Brown (mixed),112,58
+2021,Adult (1–<8y),Orange,98,51
+2021,Adult (1–<8y),Other coats,158,105
+2021,Adult (1–<8y),Other/pattern,111,68
+2021,Adult (1–<8y),Tortoiseshell,68,33
+2021,Adult (1–<8y),White (mixed),67,38
+2021,Kitten (<1y),Black,547,337
+2021,Kitten (<1y),Black (mixed),292,194
+2021,Kitten (<1y),Blue/gray,389,230
+2021,Kitten (<1y),Blue/gray (mixed),168,122
+2021,Kitten (<1y),Brown,588,406
+2021,Kitten (<1y),Brown (mixed),286,200
+2021,Kitten (<1y),Orange,279,181
+2021,Kitten (<1y),Other coats,434,280
+2021,Kitten (<1y),Other/pattern,297,211
+2021,Kitten (<1y),Tortoiseshell,176,118
+2021,Kitten (<1y),White (mixed),181,120
+2021,Senior (8y+),Black,28,13
+2021,Senior (8y+),Black (mixed),26,17
+2021,Senior (8y+),Blue/gray,13,5
+2021,Senior (8y+),Blue/gray (mixed),9,6
+2021,Senior (8y+),Brown,27,14
+2021,Senior (8y+),Brown (mixed),16,8
+2021,Senior (8y+),Orange,18,7
+2021,Senior (8y+),Other coats,37,21
+2021,Senior (8y+),Other/pattern,24,12
+2021,Senior (8y+),Tortoiseshell,18,7
+2021,Senior (8y+),White (mixed),12,10
+2022,Adult (1–<8y),Black,147,82
+2022,Adult (1–<8y),Black (mixed),112,72
+2022,Adult (1–<8y),Blue/gray,137,77
+2022,Adult (1–<8y),Blue/gray (mixed),83,42
+2022,Adult (1–<8y),Brown,209,115
+2022,Adult (1–<8y),Brown (mixed),116,68
+2022,Adult (1–<8y),Orange,108,65
+2022,Adult (1–<8y),Other coats,200,110
+2022,Adult (1–<8y),Other/pattern,133,95
+2022,Adult (1–<8y),Tortoiseshell,80,51
+2022,Adult (1–<8y),White (mixed),90,44
+2022,Kitten (<1y),Black,421,310
+2022,Kitten (<1y),Black (mixed),279,208
+2022,Kitten (<1y),Blue/gray,279,183
+2022,Kitten (<1y),Blue/gray (mixed),171,122
+2022,Kitten (<1y),Brown,537,377
+2022,Kitten (<1y),Brown (mixed),253,177
+2022,Kitten (<1y),Orange,267,198
+2022,Kitten (<1y),Other coats,447,327
+2022,Kitten (<1y),Other/pattern,214,153
+2022,Kitten (<1y),Tortoiseshell,136,104
+2022,Kitten (<1y),White (mixed),181,139
+2022,Senior (8y+),Black,13,6
+2022,Senior (8y+),Black (mixed),15,6
+2022,Senior (8y+),Blue/gray,9,4
+2022,Senior (8y+),Blue/gray (mixed),13,6
+2022,Senior (8y+),Brown,24,13
+2022,Senior (8y+),Brown (mixed),20,7
+2022,Senior (8y+),Orange,9,3
+2022,Senior (8y+),Other coats,29,13
+2022,Senior (8y+),Other/pattern,14,7
+2022,Senior (8y+),Tortoiseshell,11,6
+2022,Senior (8y+),White (mixed),9,4
+2023,Adult (1–<8y),Black,200,93
+2023,Adult (1–<8y),Black (mixed),181,87
+2023,Adult (1–<8y),Blue/gray,168,81
+2023,Adult (1–<8y),Blue/gray (mixed),96,56
+2023,Adult (1–<8y),Brown,262,127
+2023,Adult (1–<8y),Brown (mixed),137,69
+2023,Adult (1–<8y),Orange,110,57
+2023,Adult (1–<8y),Other coats,212,106
+2023,Adult (1–<8y),Other/pattern,120,81
+2023,Adult (1–<8y),Tortoiseshell,85,41
+2023,Adult (1–<8y),White (mixed),70,37
+2023,Kitten (<1y),Black,515,313
+2023,Kitten (<1y),Black (mixed),340,240
+2023,Kitten (<1y),Blue/gray,391,263
+2023,Kitten (<1y),Blue/gray (mixed),186,132
+2023,Kitten (<1y),Brown,598,398
+2023,Kitten (<1y),Brown (mixed),293,208
+2023,Kitten (<1y),Orange,302,200
+2023,Kitten (<1y),Other coats,461,319
+2023,Kitten (<1y),Other/pattern,272,210
+2023,Kitten (<1y),Tortoiseshell,182,128
+2023,Kitten (<1y),White (mixed),178,133
+2023,Senior (8y+),Black,12,4
+2023,Senior (8y+),Black (mixed),16,7
+2023,Senior (8y+),Blue/gray,23,6
+2023,Senior (8y+),Blue/gray (mixed),13,7
+2023,Senior (8y+),Brown,21,7
+2023,Senior (8y+),Brown (mixed),14,3
+2023,Senior (8y+),Orange,12,6
+2023,Senior (8y+),Other coats,25,9
+2023,Senior (8y+),Other/pattern,14,5
+2023,Senior (8y+),Tortoiseshell,6,2
+2023,Senior (8y+),White (mixed),6,1
+2024,Adult (1–<8y),Black,221,103
+2024,Adult (1–<8y),Black (mixed),162,90
+2024,Adult (1–<8y),Blue/gray,129,76
+2024,Adult (1–<8y),Blue/gray (mixed),95,58
+2024,Adult (1–<8y),Brown,293,161
+2024,Adult (1–<8y),Brown (mixed),177,104
+2024,Adult (1–<8y),Orange,151,88
+2024,Adult (1–<8y),Other coats,296,184
+2024,Adult (1–<8y),Other/pattern,169,96
+2024,Adult (1–<8y),Tortoiseshell,84,51
+2024,Adult (1–<8y),White (mixed),83,49
+2024,Kitten (<1y),Black,571,369
+2024,Kitten (<1y),Black (mixed),311,205
+2024,Kitten (<1y),Blue/gray,368,235
+2024,Kitten (<1y),Blue/gray (mixed),193,141
+2024,Kitten (<1y),Brown,710,505
+2024,Kitten (<1y),Brown (mixed),354,269
+2024,Kitten (<1y),Orange,319,191
+2024,Kitten (<1y),Other coats,507,331
+2024,Kitten (<1y),Other/pattern,311,216
+2024,Kitten (<1y),Tortoiseshell,168,104
+2024,Kitten (<1y),White (mixed),184,123
+2024,Senior (8y+),Black,13,5
+2024,Senior (8y+),Black (mixed),25,12
+2024,Senior (8y+),Blue/gray,11,4
+2024,Senior (8y+),Blue/gray (mixed),6,3
+2024,Senior (8y+),Brown,26,16
+2024,Senior (8y+),Brown (mixed),15,5
+2024,Senior (8y+),Orange,11,6
+2024,Senior (8y+),Other coats,18,9
+2024,Senior (8y+),Other/pattern,9,5
+2024,Senior (8y+),Tortoiseshell,9,1
+2024,Senior (8y+),White (mixed),10,4
