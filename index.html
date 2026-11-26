@@ -1,16 +1,240 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Explore recorded cat adoption outcomes by age, coat color, and year in Austin Animal Center data."><title>Purrfect Match? | DSC 209R Initial Prototype</title><link rel="stylesheet" href="styles.css"><script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js" defer></script><script src="app.js" defer></script></head>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Explore recorded cat adoption outcomes by age, coat color, and year in Austin Animal Center data.">
+    <title>Purrfect Match? | DSC 209R Final Project</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js" defer></script>
+    <script src="app.js" defer></script>
+</head>
+
 <body>
-<header class="topbar"><a href="#top" class="brand">✦ <span>Purrfect Match?</span></a><span class="course">DSC 209R · INITIAL PROTOTYPE</span></header>
-<main id="top">
-<section class="hero wrap"><div class="eyebrow">AN EXPLORABLE CAT ADOPTION STORY <span>🐾</span></div><h1>Do <em>black cats</em> really<br>have a harder time<br>getting adopted?</h1><p class="lead">An Austin shelter's historical records let us look past the stereotype. Explore age, coat color, and time to see how often recorded cat outcomes are adoptions.</p><div class="hero-note"><span class="dot"></span> Real Austin Animal Center records · 2014–2024 full calendar years</div></section>
-<section class="wrap narrative"><p><strong>At first glance,</strong> coat color seems like an obvious thing to compare. <strong>But</strong> age and year can change the pattern we see. <strong>So</strong> try different groups below before deciding what the data say.</p></section>
-<section class="wrap explorer" id="explore"><div class="section-head"><div><div class="kicker">01 / INTERACTIVE EXPLORER</div><h2>Change the question.</h2><p>Select a coat category, age group, or year. Both charts and the record count update using the same subset.</p></div><button class="reset" id="reset" type="button">↺ Reset filters</button></div>
-<div class="controls"><label>Coat category<select id="coat-filter"><option value="All">All coat categories</option></select></label><label>Age group<select id="age-filter"><option value="All">All ages</option><option value="Kitten (<1y)">Kitten (&lt;1 year)</option><option value="Adult (1–<8y)">Adult (1–&lt;8 years)</option><option value="Senior (8y+)">Senior (8+ years)</option></select></label><label>Year<select id="year-filter"><option value="All">All years (2014–2024)</option></select></label></div>
-<div class="stat-grid"><article class="stat"><div class="stat-label">ADOPTION OUTCOME SHARE</div><div class="stat-value" id="share">—</div><div class="stat-caption">Adoptions ÷ recorded outcomes</div></article><article class="stat"><div class="stat-label">OUTCOME RECORDS IN SELECTION</div><div class="stat-value" id="count">—</div><div class="stat-caption">Records, not unique cats</div></article><article class="stat"><div class="stat-label">CURRENT FILTERS</div><div id="selected-label" class="selected-label">All cats · All years</div><div class="stat-caption">Try narrowing a group to compare</div></article></div>
-<div class="charts"><article class="panel"><div class="chart-title"><div class="kicker">A / AGE COMPARISON</div><h3>How does age relate to adoption?</h3><p>Share of recorded outcomes classified as Adoption, by age group. Click a bar to filter.</p></div><div id="age-chart" class="plot" role="group" aria-label="Interactive age group adoption bar chart"></div></article><article class="panel"><div class="chart-title"><div class="kicker">B / COAT COMPARISON</div><h3>What about coat color?</h3><p>Largest coat categories in the filtered subset. Click a bar to filter.</p></div><div id="coat-chart" class="plot" role="group" aria-label="Interactive coat color adoption bar chart"></div></article></div>
-<div class="insight" id="insight" aria-live="polite">Select a group above to begin exploring.</div><p class="method-note">The percentage uses known outcome types as its denominator. “Black” follows the dataset's first reported coat-color token and can include patterned coats (e.g., Black Tabby); “Black (mixed)” has a slash-separated color such as Black/White. “Other coats” combines remaining less frequent labels. Adoption share is not an individual cat's probability of adoption. Transfers are not equivalent to unsuccessful adoption.</p><div id="error" class="error" hidden></div></section>
-<section class="wrap explain"><div class="kicker">02 / WORK IN PROGRESS</div><h2>Prototype write-up</h2><div class="columns"><article><h3>What have you done so far?</h3><p>I selected the historical Austin Animal Center Outcomes dataset and narrowed the analysis to cat outcome records. I cleaned age descriptions into kitten, adult, and senior categories and organized coat-color labels into comparable groups. I explored six static charts for the proposal, including adoption outcome counts, age comparisons, coat comparisons, and a heatmap. For this initial prototype, I used D3.js to create linked bar charts with filters for age, coat color, and calendar year. I also added visible sample sizes and a consistent definition of adoption outcome share so the charts are interpretable.</p></article><article><h3>What will be the most challenging to design, and why?</h3><p>The most challenging part will be helping readers compare adoption outcomes without overstating what the records can tell us. Age and coat color are not independent of other factors, and a simple difference in percentages does not establish a causal effect. I also need to choose interactions that reveal meaningful differences while preventing readers from confusing recorded outcomes with individual cats' adoption chances. Another challenge is making subgroup sizes visible because some categories are much smaller than others. For the final version, I plan to add a stronger guided narrative, clearer annotations, and comparisons that help readers notice how results shift after changing filters.</p></article></div></section>
-<section class="wrap footer-note"><h2>About these records</h2><p>Source: <a href="https://data.austintexas.gov/d/9t4d-g238" target="_blank" rel="noopener">City of Austin — Austin Animal Center Outcomes</a> (historical archive, 10/01/2013–05/05/2025). This prototype uses only full calendar years 2014–2024. Data are grouped counts from the public CSV, not generated or simulated. Outcomes are shelter encounter records; individual Animal IDs may appear more than once. Cohort differences do not show cause and effect. Charts are drawn in D3.js and updated when filters change.</p><p><strong>Prototype status:</strong> This is an early design for course feedback, not the finished explorable explanation.</p></section>
-</main><footer><span>🐈 Purrfect Match?</span><span>DSC 209R · Final Project Prototype</span></footer>
-</body></html>
+    <header class="topbar"><a href="#top" class="brand">✦ <span>Purrfect Match?</span></a><span class="course">DSC 209R
+            · FINAL PROJECT</span></header>
+    <main id="top">
+        <section class="hero wrap">
+            <div class="eyebrow">AN EXPLORABLE CAT ADOPTION STORY <span>🐾</span></div>
+            <h1>Do <em>black cats</em> really<br>have a harder time<br>getting adopted?</h1>
+            <p class="lead">An Austin shelter's historical records let us look past the stereotype. Explore age, coat
+                color, and time to see how often recorded cat outcomes are adoptions.</p>
+            <div class="hero-note"><span class="dot"></span> Real Austin Animal Center records · 2014–2024 full calendar
+                years</div>
+        </section>
+        <section class="wrap narrative">
+            <p>
+                <strong>What if the black cat stereotype
+                    doesn't tell the whole story?</strong>
+                Black cats are often believed to have a harder
+                time getting adopted. But shelter records
+                suggest that coat color alone may not explain
+                the differences we observe.
+                Age and time also matter when comparing
+                recorded adoption outcomes.
+                Explore the data below to investigate
+                these patterns for yourself.
+            </p>
+        </section>
+        <section class="wrap explorer" id="explore">
+            <div class="section-head">
+                <div>
+                    <div class="kicker">01 / INTERACTIVE EXPLORER</div>
+                    <h2>Change the question.</h2>
+                    <p>Select a coat category, age group, or year. Both charts and the record count update using the
+                        same subset.</p>
+                </div><button class="reset" id="reset" type="button">↺ Reset filters</button>
+            </div>
+            <div class="controls"><label>Coat category<select id="coat-filter">
+                        <option value="All">All coat categories</option>
+                    </select></label><label>Age group<select id="age-filter">
+                        <option value="All">All ages</option>
+                        <option value="Kitten (<1y)">Kitten (&lt;1 year)</option>
+                        <option value="Adult (1–<8y)">Adult (1–&lt;8 years)</option>
+                        <option value="Senior (8y+)">Senior (8+ years)</option>
+                    </select></label><label>Year<select id="year-filter">
+                        <option value="All">All years (2014–2024)</option>
+                    </select></label></div>
+            <div class="stat-grid">
+                <article class="stat">
+                    <div class="stat-label">ADOPTION OUTCOME SHARE</div>
+                    <div class="stat-value" id="share">—</div>
+                    <div class="stat-caption">Adoptions ÷ recorded outcomes</div>
+                </article>
+                <article class="stat">
+                    <div class="stat-label">OUTCOME RECORDS IN SELECTION</div>
+                    <div class="stat-value" id="count">—</div>
+                    <div class="stat-caption">Records, not unique cats</div>
+                </article>
+                <article class="stat">
+                    <div class="stat-label">CURRENT FILTERS</div>
+                    <div id="selected-label" class="selected-label">All cats · All years</div>
+                    <div class="stat-caption">Try narrowing a group to compare</div>
+                </article>
+            </div>
+            <div class="charts">
+                <article class="panel">
+                    <div class="chart-title">
+                        <div class="kicker">A / AGE COMPARISON</div>
+                        <h3>How does age relate to adoption?</h3>
+                        <p>Share of recorded outcomes classified as Adoption, by age group. Click a bar to filter.</p>
+                    </div>
+                    <div id="age-chart" class="plot" role="group" aria-label="Interactive age group adoption bar chart">
+                    </div>
+                </article>
+                <article class="panel">
+                    <div class="chart-title">
+                        <div class="kicker">B / COAT COMPARISON</div>
+                        <h3>What about coat color?</h3>
+                        <p>Largest coat categories in the filtered subset. Click a bar to filter.</p>
+                    </div>
+                    <div id="coat-chart" class="plot" role="group"
+                        aria-label="Interactive coat color adoption bar chart"></div>
+                </article>
+            </div>
+            <div class="insight" id="insight" aria-live="polite">Select a group above to begin exploring.</div>
+            <p class="method-note">The percentage uses known outcome types as its denominator. “Black” follows the
+                dataset's first reported coat-color token and can include patterned coats (e.g., Black Tabby); “Black
+                (mixed)” has a slash-separated color such as Black/White. “Other coats” combines remaining less frequent
+                labels. Adoption share is not an individual cat's probability of adoption. Transfers are not equivalent
+                to unsuccessful adoption.</p>
+            <div id="error" class="error" hidden></div>
+        </section>
+        <section class="wrap findings">
+
+            <div class="kicker">02 / WHAT THE DATA REVEALS</div>
+
+            <h2>Does age tell a bigger story?</h2>
+
+            <p class="findings-intro">
+                Our exploratory analysis of Austin Animal Center
+                records reveals that shelter adoption outcomes
+                are more nuanced than a simple stereotype.
+            </p>
+
+            <div class="finding-grid">
+
+                <article class="finding-card">
+                    <div class="finding-icon">🐈‍⬛</div>
+
+                    <h3>Coat color isn't the whole story</h3>
+
+                    <p>
+                        In the initial analysis, the adoption
+                        outcome share for the Black coat category
+                        was 49.0%, compared with 49.3% for Orange
+                        and 49.5% for Blue/gray.
+                        These differences are relatively small
+                        for the groups shown.
+                    </p>
+                </article>
+
+                <article class="finding-card">
+                    <div class="finding-icon">🐱</div>
+
+                    <h3>Age reveals a larger difference</h3>
+
+                    <p>
+                        Kittens had an adoption outcome share
+                        of 57.4%, compared with 40.2% for adult
+                        cats in the initial analysis.
+                        This difference suggests that age is
+                        important to consider when exploring
+                        adoption patterns.
+                    </p>
+                </article>
+
+            </div>
+
+            <p class="finding-note">
+                These figures come from the broader historical
+                exploratory analysis used in the project proposal.
+                The interactive explorer above uses full calendar
+                years 2014–2024, so its displayed percentages may
+                differ. Coat categories follow the recorded labels
+                and may include patterned coats.
+            </p>
+
+        </section>
+
+        <section class="wrap takeaway">
+
+            <div class="kicker">03 / THE BIGGER PICTURE</div>
+
+            <h2>What did we learn?</h2>
+
+            <p class="takeaway-main">
+                A cat's story is more than its coat color.
+            </p>
+
+            <p>
+                Our exploration suggests that understanding
+                shelter adoption outcomes requires looking
+                beyond a single characteristic.
+
+                While differences exist across coat-color
+                groups, age-related patterns are also
+                important.
+
+                By comparing characteristics interactively,
+                viewers can discover how overall trends
+                change across different groups.
+            </p>
+
+            <p>
+                These results describe recorded shelter
+                outcomes and do not establish why individual
+                cats were or were not adopted.
+            </p>
+
+            <a href="#explore" class="explore-again">
+                Explore the data again ↑
+            </a>
+
+        </section>
+
+        <section class="wrap explain">
+            <div class="kicker">04 / DEVELOPMENT PROGRESS</div>
+            <h2>Design & Development Implementation</h2>
+            <div class="columns">
+                <article>
+                    <h3>What have you done so far?</h3>
+                    <p>I selected the historical Austin Animal Center Outcomes dataset and narrowed the analysis to cat
+                        outcome records. I cleaned age descriptions into kitten, adult, and senior categories and
+                        organized coat-color labels into comparable groups. I explored six static charts for the
+                        proposal, including adoption outcome counts, age comparisons, coat comparisons, and a heatmap.
+                        For this initial prototype, I used D3.js to create linked bar charts with filters for age, coat
+                        color, and calendar year. I also added visible sample sizes and a consistent definition of
+                        adoption outcome share so the charts are interpretable.</p>
+                </article>
+                <article>
+                    <h3>What will be the most challenging to design, and why?</h3>
+                    <p>The most challenging part will be helping readers compare adoption outcomes without overstating
+                        what the records can tell us. Age and coat color are not independent of other factors, and a
+                        simple difference in percentages does not establish a causal effect. I also need to choose
+                        interactions that reveal meaningful differences while preventing readers from confusing recorded
+                        outcomes with individual cats' adoption chances. Another challenge is making subgroup sizes
+                        visible because some categories are much smaller than others. For the final version, I plan to
+                        add a stronger guided narrative, clearer annotations, and comparisons that help readers notice
+                        how results shift after changing filters.</p>
+                </article>
+            </div>
+        </section>
+        <section class="wrap footer-note">
+            <h2>About these records</h2>
+            <p>Source: <a href="https://data.austintexas.gov/d/9t4d-g238" target="_blank" rel="noopener">City of Austin
+                    — Austin Animal Center Outcomes</a> (historical archive, 10/01/2013–05/05/2025). This prototype uses
+                only full calendar years 2014–2024. Data are grouped counts from the public CSV, not generated or
+                simulated. Outcomes are shelter encounter records; individual Animal IDs may appear more than once.
+                Cohort differences do not show cause and effect. Charts are drawn in D3.js and updated when filters
+                change.</p>
+            
+        </section>
+    </main>
+    <footer><span>🐈 Purrfect Match?</span><span>DSC 209R · Final Project Prototype</span></footer>
+</body>
+
+</html>
